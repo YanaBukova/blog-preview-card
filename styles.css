@@ -1,13 +1,18 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
 }
 
 body {
-    display: grid;
+    display: flex;
     justify-content: center; 
     align-items: center;
     margin: 0;
     background-color: #f4d04e;
+    padding: 24px;
 }
 
 .card {
@@ -15,7 +20,8 @@ body {
     background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 20px;
-    width: 384px;
-    height: 522px;
+    max-width: 384px;
+    width: 100%;
+    min-height: 522px;
     box-shadow: 8px 8px #000000;
 }
