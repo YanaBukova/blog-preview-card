@@ -67,6 +67,11 @@ body {
     color: #121212;
 }
 
+.card__title:hover {
+    color: #f4d04e;
+    cursor: pointer;
+}
+
 .card_description {
     font-family: 'Figtree', Arial, sans-serif;
     font-size: 16px;
