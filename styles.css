@@ -72,3 +72,23 @@ body {
     font-size: 16px;
     color:  #6b6b6b;
 }
+
+.card__author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.card__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.card__author-name {
+    font-family: 'Figtree', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #121212;
+}
