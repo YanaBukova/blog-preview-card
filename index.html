@@ -10,31 +10,40 @@
   <title>Frontend Mentor | Blog preview card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
+   <!-- TODO: предлагаю переместить эти стили в основной документ со стилями, раскомментить твои контакты в html и сделать так чтобы внизу документа было видно кто выполнил эту задачу. Думаю тут подойдет абсолютное позиционирование в самом низу страницы по середине  -->
+<!-- добавь шрифт -->
+<style> 
+    .attribution { 
+      font-size: 11px; 
+      text-align: center;
+      position: absolute;
+     }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-        <div class="card">
-          <div class="card__img-wrapper"> 
-            <img class="card__img" src="assets/images/illustration-article.svg" alt="иллюстратия статьи">
+      <main>
+        <div class="blog-preview-card">
+          <div class="blog-preview-card__img-wrapper"> 
+            <img class="blog-preview-card__img" src="assets/images/illustration-article.svg" alt="иллюстратия статьи">
           </div>
-          <div class="card__labels-list">
-            <span class="card__label">Learning</span>
+          <div class="blog-preview-card__labels-list">
+            <span class="blog-preview-card__label">Learning</span>
           </div>
-          <time class="card__date" datetime="2023-12-21">Published 21 Dec 2023</time>
-          <h3 class="card__title">HTML & CSS foundations</h3>
-          <p class="card_description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-          <div class="card__author">
-             <img class="card__avatar" src="assets/images/image-avatar.webp" alt="Greg Hooper">
-             <span class="card__author-name">Greg Hooper</span>
+          <time class="blog-preview-card__date" datetime="2023-12-21">Published 21 Dec 2023</time>
+          <h3 class="blog-preview-card__title">HTML & CSS foundations</h3>
+          <p class="blog-preview-card__description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+          <div class="blog-preview-card__author">
+             <img class="blog-preview-card__avatar" src="assets/images/image-avatar.webp" alt="Greg Hooper">
+             <span class="blog-preview-card__author-name">Greg Hooper</span>
           </div>
         </div>
-
-  <!-- <div class="attribution">
+      </main>   
+<!-- <footer>
+   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
-</body>
-</html
+    Coded by <a href="https://github.com/YanaBukova">Yana Bukova</a>.
+   </div>
+ </footer> -->
+ </body> 
+</html>
